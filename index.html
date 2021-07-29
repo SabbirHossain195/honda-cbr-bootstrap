@@ -23,34 +23,41 @@
 <body>
     <!-- Header Part Start -->
     <header class="bg-primary">
-        <section class="container text-light d-lg-flex align-items-center py-5">
-            <div>
-                <p>Computer-controlled digital transistorized with electronic advance</p>
+        <section class="container text-light d-lg-flex align-items-center py-5 justify-content-between">
+            <div class="col col-lg-5 my-5">
+                <p>The CBR300R brings hot new graphics in two color choices. Time to get riding!</p>
                 <h1 class="fw-bold">Honda CBR 300R</h1>
-                <p class="col col-lg-7">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                    Velit officia
-                    consequat
-                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R
+                    is your sweet spot between form and function. It’s narrow, light, and a total blast to ride around
+                    town and on twisty back roads.</p>
 
-                <button type="button" class="btn btn-success px-5" data-toggle="modal"
-                    data-target="#exampleModalCenter">Purchase</button>
 
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success px-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Purchase
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+                                <h5 class="modal-title text-dark" id="exampleModalLabel">Do You Want to Purchase?</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
-                            <div class="modal-body">
-                                <p>I am Khan.</p>
+                            <div class="modal-body text-dark">
+                                <p>This is just a confirmation from you. If you really want to purchase the bike click
+                                    on
+                                    yes and it'll be add to your cart otherwise you can skip this by clicking on no or
+                                    anywhere on the screen.</p><br>
+                                <p>Thank You !</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                <button type="button" class="btn btn-primary">Yes</button>
                             </div>
                         </div>
                     </div>
@@ -72,11 +79,27 @@
                 <h1 class="fw-bold">Featured Bikes 2021</h1>
                 <p class="text-danger">Best bike collection</p>
             </div>
-            <div class="mt-5 d-lg-flex justify-content-between">
-                <img class="m-auto d-block w-25 gray" src="images/feature-bike.jpg" alt="">
-                <img class="m-auto d-block w-25" src="images/feature-bike.jpg" alt="">
-                <img class="m-auto d-block w-25 gray" src="images/feature-bike.jpg" alt="">
+
+            <div>
+                <div class="row gy-5 justify-content-between">
+                    <div class="col col-lg-3 col-12">
+                        <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col col-lg-3 col-12 py-5 py-lg-0">
+                        <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col col-lg-3 col-12">
+                        <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
             </div>
+
+
+            <!-- <div class="mt-5 d-lg-flex justify-content-between">
+                <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+            </div> -->
         </section>
         <!-- feature section close -->
 
@@ -156,7 +179,7 @@
             <h1 class="my-5 pb-4 text-center fw-bold">Frequently Asked <span class="text-danger">Questions</span></h1>
             <div class="container">
                 <div class="row row-cols-1 row-cols-lg-2 gx-5">
-                    <div class="col col-lg-7 text-center">
+                    <div class="mb-5 col col-lg-7 text-center">
                         <img class="w-75" src="images/faq.png" alt="">
                     </div>
                     <div class="col col-lg-5 text-center">
@@ -263,7 +286,7 @@
             <h1 class="my-5 pb-4 text-center fw-bold"><span class="text-danger">Explore</span>
                 More</h1>
             <div class="p-5 bg-secondary">
-                <div class="mt-5 pt-5 d-lg-flex justify-content-between">
+                <div class="mt-3 d-lg-flex justify-content-between">
                     <div class="ratio ratio-16x9">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/7HuiufMjFp4"
                             title="YouTube video player" frameborder="0"
@@ -283,7 +306,7 @@
                             allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="my-5 pt-3 d-lg-flex justify-content-end">
+                <div class="mt-5 pt-3 d-lg-flex justify-content-end">
                     <a class="btn btn-success" target="_blank"
                         href="https://www.youtube.com/results?search_query=honda+cbr+300r">Watch More</a>
                 </div>
