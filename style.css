@@ -27,28 +27,22 @@ h1{
 .job-text-color{
     color: #252B42;
 }
-
 .accordion{
     border: 2px solid #D5E5FB;
     border-radius: 5px;
 }
-
 .honda-accordion-button{
     background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
     box-shadow: none;
-    
 }
-
 .honda-accordion-button:not(.collapsed) {
     color: #000000;
     background-color: none;
     box-shadow: none;
 }
-
 .accordion-body-text{
     color: #7E848C;
 }
-
 .explore-bg{
-    background-color: rgba(38, 70, 83, 0.144);
+    background-color: rgba(38, 70, 83, 0.164);
 }
