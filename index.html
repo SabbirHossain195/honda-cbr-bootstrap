@@ -13,16 +13,14 @@
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/45367a5b5a.js" crossorigin="anonymous"></script>
 
-    <!-- <style>
-        .gray {
-            filter: grayscale(100%);
-        }
-    </style> -->
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
     <!-- Header Part Start -->
-    <header class="bg-primary">
+    <header class="honda-bg-color">
         <section class="container text-light d-lg-flex align-items-center py-5 justify-content-between">
             <div class="col col-lg-5 my-5">
                 <p>The CBR300R brings hot new graphics in two color choices. Time to get riding!</p>
@@ -33,7 +31,7 @@
 
 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-success px-5" data-bs-toggle="modal"
+                <button type="button" class="text-light btn honda-btn-bg px-5" data-bs-toggle="modal"
                     data-bs-target="#exampleModal">
                     Purchase
                 </button>
@@ -57,7 +55,9 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-                                <button type="button" class="btn btn-primary">Yes</button>
+                                <button type="button" class="btn honda-btn-bg"><a id="modal-btn"
+                                        href="https://powersports.honda.com/street/sport/cbr300r"
+                                        target="_blank">Yes</a></button>
                             </div>
                         </div>
                     </div>
@@ -77,35 +77,28 @@
         <section class="container my-5 pt-5">
             <div class="text-center mb-5">
                 <h1 class="fw-bold">Featured Bikes 2021</h1>
-                <p class="text-danger">Best bike collection</p>
+                <p class="honda-text-color">Best bike collection</p>
             </div>
 
             <div>
                 <div class="row gy-5 justify-content-between">
                     <div class="col col-lg-3 col-12">
-                        <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                        <img class="img-fluid gray" src="images/feature-bike.jpg" alt="">
                     </div>
                     <div class="col col-lg-3 col-12 py-5 py-lg-0">
                         <img class="img-fluid" src="images/feature-bike.jpg" alt="">
                     </div>
                     <div class="col col-lg-3 col-12">
-                        <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                        <img class="img-fluid gray" src="images/feature-bike.jpg" alt="">
                     </div>
                 </div>
             </div>
-
-
-            <!-- <div class="mt-5 d-lg-flex justify-content-between">
-                <img class="img-fluid" src="images/feature-bike.jpg" alt="">
-                <img class="img-fluid" src="images/feature-bike.jpg" alt="">
-                <img class="img-fluid" src="images/feature-bike.jpg" alt="">
-            </div> -->
         </section>
         <!-- feature section close -->
 
         <!-- clients section start -->
         <section class="container my-5 pt-5">
-            <h1 class="fw-bold text-center mt-5">Happy <span class="text-danger">Clients Says</span></h1>
+            <h1 class="fw-bold text-center mt-5">Happy <span class="honda-text-color">Clients Says</span></h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5">
                 <div class="col">
                     <div class="card h-100 p-5">
@@ -117,14 +110,16 @@
                                 their behavior, their servicing system and their determination towards the customers
                                 makes me happy. I wish all the best to them.</p>
                             <div class="mt-4">
-                                <i class="text-warning fas fa-star"></i>
-                                <i class="text-warning fas fa-star"></i>
-                                <i class="text-warning fas fa-star"></i>
-                                <i class="text-warning fas fa-star"></i>
-                                <i class="text-warning far fa-star"></i>
+                                <i class="star-color fas fa-star"></i>
+                                <i class="star-color fas fa-star"></i>
+                                <i class="star-color fas fa-star"></i>
+                                <i class="star-color fas fa-star"></i>
+                                <i class="star-color far fa-star"></i>
                             </div>
-                            <h4 class="my-4 text-primary">Regina Miles</h4>
-                            <h4>Banker</h4>
+                            <h4 class="my-4"><a class="user-name"
+                                    href="https://www.linkedin.com/search/results/people/?firstName=Regina&lastName=Miles&origin=SEO_PSERP&sid=zRD"
+                                    target="_blank">Regina Miles</a></h4>
+                            <h4 class="job-text-color">Banker</h4>
                         </div>
                     </div>
                 </div>
@@ -138,14 +133,16 @@
                                 their behavior, their servicing system and their determination towards the customers
                                 makes me happy. I wish all the best to them.</p>
                             <div class="mt-4">
-                                <i class="text-warning fas fa-star"></i>
-                                <i class="text-warning fas fa-star"></i>
-                                <i class="text-warning fas fa-star"></i>
-                                <i class="text-warning fas fa-star"></i>
-                                <i class="text-warning far fa-star"></i>
+                                <i class="star-color fas fa-star"></i>
+                                <i class="star-color fas fa-star"></i>
+                                <i class="star-color fas fa-star"></i>
+                                <i class="star-color fas fa-star"></i>
+                                <i class="star-color far fa-star"></i>
                             </div>
-                            <h4 class="my-4 text-primary">Regina Miles</h4>
-                            <h4>Banker</h4>
+                            <h4 class="my-4"><a class="user-name"
+                                    href="https://www.linkedin.com/search/results/people/?firstName=Regina&lastName=Miles&origin=SEO_PSERP&sid=zRD"
+                                    target="_blank">Regina Miles</a></h4>
+                            <h4 class="job-text-color">Banker</h4>
                         </div>
                     </div>
                 </div>
@@ -159,14 +156,16 @@
                                 their behavior, their servicing system and their determination towards the customers
                                 makes me happy. I wish all the best to them.</p>
                             <div class="mt-4">
-                                <i class="text-warning fas fa-star"></i>
-                                <i class="text-warning fas fa-star"></i>
-                                <i class="text-warning fas fa-star"></i>
-                                <i class="text-warning fas fa-star"></i>
-                                <i class="text-warning far fa-star"></i>
+                                <i class="star-color fas fa-star"></i>
+                                <i class="star-color fas fa-star"></i>
+                                <i class="star-color fas fa-star"></i>
+                                <i class="star-color fas fa-star"></i>
+                                <i class="star-color far fa-star"></i>
                             </div>
-                            <h4 class="my-4 text-primary">Regina Miles</h4>
-                            <h4>Banker</h4>
+                            <h4 class="my-4"><a class="user-name"
+                                    href="https://www.linkedin.com/search/results/people/?firstName=Regina&lastName=Miles&origin=SEO_PSERP&sid=zRD"
+                                    target="_blank">Regina Miles</a></h4>
+                            <h4 class="job-text-color">Banker</h4>
                         </div>
                     </div>
                 </div>
@@ -176,79 +175,28 @@
 
         <!-- FAQ section start -->
         <section class="my-5 py-5">
-            <h1 class="my-5 pb-4 text-center fw-bold">Frequently Asked <span class="text-danger">Questions</span></h1>
+            <h1 class="my-5 pb-4 text-center fw-bold">Frequently Asked <span class="honda-text-color">Questions</span>
+            </h1>
             <div class="container">
                 <div class="row row-cols-1 row-cols-lg-2 gx-5">
                     <div class="mb-5 col col-lg-7 text-center">
                         <img class="w-75" src="images/faq.png" alt="">
                     </div>
                     <div class="col col-lg-5 text-center">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item mb-3">
+
+                        <div class="accordion accordion-flush mb-4" id="accordionExample">
+                            <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <button class="accordion-button honda-accordion-button" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
                                         <h3 class="fw-normal">What are the most important things I should
                                             know about riding a bike?</h3>
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body text-start fw-light">
-                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
-                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
-                                        your bike. This will help you be a more focused and legally compliant bike
-                                        rider.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mb-3">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <h3 class="fw-normal">How can I tell if my helmet is old and I need a
-                                            new one?</h3>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body text-start fw-light">
-                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
-                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
-                                        your bike. This will help you be a more focused and legally compliant bike
-                                        rider.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mb-3">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        <h3 class="fw-normal">My bike has been in storage is it safe to ride?</h3>
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body text-start fw-light">
-                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
-                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
-                                        your bike. This will help you be a more focused and legally compliant bike
-                                        rider.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFour" aria-expanded="false"
-                                        aria-controls="collapseFour">
-                                        <h3 class="fw-normal">What rules should I follow when riding my bike?</h3>
-                                    </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body text-start fw-light">
+                                    <div class="accordion-body text-start accordion-body-text">
                                         Safety First! Always obey the rules of the road. Obey all traffic signals,
                                         signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
                                         your bike. This will help you be a more focused and legally compliant bike
@@ -257,6 +205,71 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="accordion accordion-flush mb-4" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button honda-accordion-button" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                        aria-controls="collapseTwo">
+                                        <h3 class="fw-normal">How can I tell if my helmet is old and I need a
+                                            new one?</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-start accordion-body-text">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion accordion-flush mb-4" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button honda-accordion-button" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
+                                        aria-controls="collapseThree">
+                                        <h3 class="fw-normal">My bike has been in storage is it safe to ride?</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-start accordion-body-text">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion accordion-flush" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button honda-accordion-button" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
+                                        aria-controls="collapseFour">
+                                        <h3 class="fw-normal">What rules should I follow when riding my bike?</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-start accordion-body-text">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -265,17 +278,18 @@
 
         <!-- subscribe section start -->
         <section class="container my-5 py-5">
-            <h1 class="my-5 pb-4 text-center fw-bold"><span class="text-danger">Subscribe</span> and Give Us Feedback
+            <h1 class="my-5 pb-4 text-center fw-bold"><span class="honda-text-color">Subscribe</span> and Give Us
+                Feedback
             </h1>
             <div style="height: 400px"
-                class="container bg-primary d-flex justify-content-center align-items-center rounded-3 text-light"
+                class="container honda-bg-color d-flex justify-content-center align-items-center rounded-3 text-light"
                 id="subscribe">
                 <div>
                     <h2>Let's Stay in Touch</h2>
                     <p>Get updates on sales, specials and more</p>
                     <input class="form-control" type="text" placeholder="Your email">
                     <br>
-                    <button class="btn btn-success">Submit</button>
+                    <button class="btn honda-btn-bg text-light">Submit</button>
                 </div>
             </div>
         </section>
@@ -283,9 +297,9 @@
 
         <!-- explore more section start  -->
         <section class="container my-5 py-5">
-            <h1 class="my-5 pb-4 text-center fw-bold"><span class="text-danger">Explore</span>
+            <h1 class="my-5 pb-4 text-center fw-bold"><span class="honda-text-color">Explore</span>
                 More</h1>
-            <div class="p-5 bg-secondary">
+            <div class="p-5 explore-bg rounded">
                 <div class="mt-3 d-lg-flex justify-content-between">
                     <div class="ratio ratio-16x9">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/7HuiufMjFp4"
@@ -307,7 +321,7 @@
                     </div>
                 </div>
                 <div class="mt-5 pt-3 d-lg-flex justify-content-end">
-                    <a class="btn btn-success" target="_blank"
+                    <a class="btn honda-btn-bg text-light" target="_blank"
                         href="https://www.youtube.com/results?search_query=honda+cbr+300r">Watch More</a>
                 </div>
             </div>
